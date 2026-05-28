@@ -1,0 +1,14 @@
+public class ValidationScript
+{
+    public static void main(String[] args)
+    {
+        int amount = 5000;
+
+        if(amount > 1000)
+        {
+            System.out.println("High Value Transaction");
+        }
+
+        System.out.println("Validation Completed");
+    }
+}
