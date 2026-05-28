@@ -11,4 +11,21 @@ public class ValidationScript
 
         System.out.println("Validation Completed");
     }
+}public class ValidationScript
+{
+    public static void main(String[] args)
+    {
+        int amount = 7000;
+
+        if(amount > 5000)
+        {
+            System.out.println("High Risk Transaction");
+        }
+        else
+        {
+            System.out.println("Normal Transaction");
+        }
+
+        System.out.println("Validation Completed");
+    }
 }
